@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-linen: #F5F1EA;
+  --color-khaki: #D7C9B8;
+  --color-camel: #B2907D;
+  --color-cocoa: #7D5A44;
+  --color-espresso: #4A342A;
+  
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F1EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #D7C9B8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B2907D;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F5F1EA;
+  color: #4A342A;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Luxury glow utility classes */
+.gold-glow {
+  text-shadow: 0 0 15px rgba(178, 144, 125, 0.3);
+}
+
+.box-gold-glow {
+  box-shadow: 0 10px 40px -10px rgba(178, 144, 125, 0.15);
+}
+
+.box-gold-glow-hover:hover {
+  box-shadow: 0 15px 45px -5px rgba(178, 144, 125, 0.25);
+}
+
