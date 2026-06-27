@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/advocate-kartik-yadav/', // GitHub Pages base path (project repo)
+    base: '/advocate-kartik-yadav-website/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

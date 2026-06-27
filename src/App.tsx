@@ -16,6 +16,7 @@ import { ConsultationTimeline } from "./components/ConsultationTimeline";
 import { Insights } from "./components/Insights";
 import { ContactForm } from "./components/ContactForm";
 import { Footer } from "./components/Footer";
+import kartikPortrait from "./assets/images/kartik_yadav_portrait_1782241466162.jpg";
 
 // Data Imports
 import { PRACTICE_AREAS } from "./data";
@@ -233,7 +234,7 @@ export default function App() {
 
                       {/* Portrait Image */}
                       <img
-                        src="/src/assets/images/kartik_yadav_portrait_1782241466162.jpg"
+                        src={kartikPortrait}
                         alt="Advocate Kartik Yadav Portrait"
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover rounded-[1px] filter grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
